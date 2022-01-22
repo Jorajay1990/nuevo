@@ -9,7 +9,7 @@ prueba-primer/<br>
               /app<br>
               /public<br>
               
-              
+ El winrar descargado, elegir la opcion "extraer aqui"  , dejara la estrucutra de carpetas y la url se podra usar si se tiene php corriendo      
  El uso de esta prueba es solo un CRUD que puede insertar usuario a la tabla, editar los usuarios, eliminar los usuarios.
 
 
