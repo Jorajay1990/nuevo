@@ -1,0 +1,170 @@
+ERROR - 2022-01-14 21:52:08 --> Table 'piazza_bd.salones' doesn't exist
+CRITICAL - 2022-01-14 22:04:48 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Auths.php(14): view('login')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Auths->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auths))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 22:04:53 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Auths.php(72): view('login')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Auths->login()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auths))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 22:06:11 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Dashboard.php(21): view('login')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\DashBoard->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 22:11:28 --> Class 'Admin_Controller' not found
+#0 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('category/agrega...')
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('category/agrega...')
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 22:12:10 --> Class 'BaseController' not found
+#0 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('category/agrega...')
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('category/agrega...')
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 22:12:12 --> Class 'BaseController' not found
+#0 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('category/agrega...')
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('category/agrega...')
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 22:12:16 --> Class 'BaseController' not found
+#0 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('category/index')
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('category/index')
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 22:12:45 --> Call to undefined method App\Controllers\Category::render_template()
+#0 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 22:13:35 --> Undefined variable: user_permission
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(12): view('category/index')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 22:14:12 --> Undefined variable: user_permission
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(12): view('category/index')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 22:14:32 --> Undefined variable: user_permission
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(12): view('category/index')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 22:23:15 --> Undefined variable: dataResponse
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(12): view('category/index')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 23:37:20 --> Undefined variable: dataResponse
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 23:37:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 23:37:53 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php on line 15
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', '[{"id_categoria...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 23:38:42 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php on line 15
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', '{"lista_categor...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 23:41:31 --> Array to string conversion
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 23:42:37 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php on line 15
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', '{"lista_categor...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,50 @@
+CRITICAL - 2022-01-16 21:48:45 --> Undefined variable: modo
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->saveUsuario()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 21:49:11 --> Undefined variable: modo
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->saveUsuario()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-16 21:50:21 --> Unknown column 'apmaterno_modal' in 'field list'
+CRITICAL - 2022-01-16 21:50:21 --> Unknown column 'apmaterno_modal' in 'field list'
+#0 C:\xampp\htdocs\piazzadifiori\system\Database\MySQLi\Connection.php(292): mysqli->query('CALL `sp_usuari...', 0)
+#1 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('CALL `sp_usuari...')
+#2 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL `sp_usuari...')
+#3 C:\xampp\htdocs\piazzadifiori\app\Models\PruebaModel.php(170): CodeIgniter\Database\BaseConnection->query('CALL `sp_usuari...')
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(151): App\Models\PruebaModel->saveUsuario('2', '7', 'rmeza', 'Rosa', 'Meza', 'Cabeza', 'Rosa', 'vigente', '4', '1', '1')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->saveUsuario()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-16 22:02:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'zmxc','jk','q','vigente','1','1','1')' at line 1
+CRITICAL - 2022-01-16 22:02:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'zmxc','jk','q','vigente','1','1','1')' at line 1
+#0 C:\xampp\htdocs\piazzadifiori\system\Database\MySQLi\Connection.php(292): mysqli->query('CALL `sp_usuari...', 0)
+#1 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('CALL `sp_usuari...')
+#2 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL `sp_usuari...')
+#3 C:\xampp\htdocs\piazzadifiori\app\Models\PruebaModel.php(170): CodeIgniter\Database\BaseConnection->query('CALL `sp_usuari...')
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(153): App\Models\PruebaModel->saveUsuario('0', -1, 'rmeza2', 'xzc\xC2\xBF'', 'zmxc', 'jk', 'q', 'vigente', '1', '1', '1')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->saveUsuario()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-16 22:05:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', '0')' at line 1
+CRITICAL - 2022-01-16 22:05:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', '0')' at line 1
+#0 C:\xampp\htdocs\piazzadifiori\system\Database\MySQLi\Connection.php(292): mysqli->query('CALL `sp_usuari...', 0)
+#1 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('CALL `sp_usuari...')
+#2 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CALL `sp_usuari...')
+#3 C:\xampp\htdocs\piazzadifiori\app\Models\PruebaModel.php(158): CodeIgniter\Database\BaseConnection->query('CALL `sp_usuari...')
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(146): App\Models\PruebaModel->usuarioExiste('zdf\xC3\x82\xC2\xBF\xC3\x82\xC2\xBF\xC3\x82\xC2\xBF...', -1, '0')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->saveUsuario()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

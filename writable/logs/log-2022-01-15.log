@@ -1,0 +1,261 @@
+CRITICAL - 2022-01-15 00:25:57 --> Array to string conversion
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\category\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Category.php(15): view('category/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 15:27:26 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\piazzadifiori\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('category/index')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('category/index')
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 16:09:59 --> Undefined variable: lista_productos
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(16): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:11:07 --> Undefined variable: lista_productos
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(16): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:11:10 --> Undefined variable: lista_productos
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(16): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:11:11 --> Undefined variable: lista_productos
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(16): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:11:12 --> Undefined variable: lista_productos
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(16): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:15:31 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php on line 17
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', '{"lista_product...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 16:15:56 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php on line 17
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', '{"lista_product...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 16:15:59 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php on line 17
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', '{"lista_product...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 16:19:21 --> utf8_encode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'utf8_encode() e...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): utf8_encode(Array)
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-15 16:19:21 --> Uncaught ErrorException: print_r(): Couldn't fetch mysqli_result in C:\xampp\htdocs\piazzadifiori\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Coul...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Views\errors\html\error_exception.php(96): print_r(Array, true)
+#2 C:\xampp\htdocs\piazzadifiori\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\piazzadifiori\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\piazzadifiori\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-15 16:20:21 --> Array to string conversion
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:21:13 --> utf8_encode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'utf8_encode() e...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): utf8_encode(Array)
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#5 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', Array)
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 16:21:38 --> utf8_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'utf8_decode() e...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): utf8_decode(Array)
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#5 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', Array)
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 16:22:07 --> Array to string conversion
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 16:22:20 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): json_decode(Array)
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#5 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(17): view('productos/index', Array)
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 16:25:25 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): json_decode(Array)
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#5 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(18): view('productos/index', Array)
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 16:25:42 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\app\Views\productos\index.php(41): json_decode(Array)
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('productos/index', Array, true)
+#5 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(18): view('productos/index', Array)
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 17:08:31 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php on line 18
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(18): view('productos/index', '{"lista_product...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 17:34:14 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php on line 18
+#0 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(18): view('productos/index', '{"lista_product...')
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 19:13:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\piazzadifiori\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\piazzadifiori\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(15): CodeIgniter\Model->__call('getCategoriasVi...', Array)
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 19:16:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\piazzadifiori\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\piazzadifiori\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\piazzadifiori\app\Controllers\Productos.php(15): CodeIgniter\Model->__call('getCategoriasVi...', Array)
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 19:40:28 --> Undefined variable: dataResponse
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\dashboard\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Auths.php(70): view('dashboard/index')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Auths->login()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auths))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 20:01:42 --> Undefined variable: dataResponse
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\dashboard\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(101): view('dashboard/index')
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->login()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 20:09:10 --> Undefined variable: lista_usuarios
+#0 C:\xampp\htdocs\piazzadifiori\app\Views\usuarios\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\piazzadifiori\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\piazzadifiori\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\piazzadifiori\system\Common.php(1097): CodeIgniter\View\View->render('usuarios/index', Array, true)
+#4 C:\xampp\htdocs\piazzadifiori\app\Controllers\Usuarios.php(16): view('usuarios/index', Array)
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\Usuarios->index()
+#6 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

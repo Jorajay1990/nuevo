@@ -1,0 +1,17 @@
+CRITICAL - 2022-01-05 20:28:14 --> Class 'App\Models\PruebaModel' not found
+#0 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\DashBoard->index()
+#1 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard))
+#2 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-05 20:29:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-05 20:29:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\piazzadifiori\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\piazzadifiori\app\Models\PruebaModel.php(39): CodeIgniter\Database\BaseConnection->query('CALL sp_valida_...')
+#2 C:\xampp\htdocs\piazzadifiori\app\Controllers\Dashboard.php(14): App\Models\PruebaModel->getAllReservas()
+#3 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(824): App\Controllers\DashBoard->index()
+#4 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashBoard))
+#5 C:\xampp\htdocs\piazzadifiori\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\piazzadifiori\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

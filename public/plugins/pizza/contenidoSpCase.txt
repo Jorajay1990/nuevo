@@ -1,0 +1,35 @@
+BEGIN
+	case opcion
+		when 1 then
+					/*`id_usuario` INT(11)
+						`id_estado` INT(11)
+						tipo_usuario int(11)
+						`rut` VARCHAR(10)
+						`digito` VARCHAR(2)
+						`nombres` VARCHAR(100)
+						`appaterno` VARCHAR(100)
+						`apmaterno` VARCHAR(100)
+						`nombre_completo` VARCHAR(200)
+						`nick` VARCHAR(50)
+						`fono` VARCHAR(20)
+						`celular` VARCHAR(20)
+						`email` VARCHAR(50)
+						`password` VARCHAR(250)
+						`usuario` INT(11) 
+						`fecha_usuario` TIMESTAMP*/			
+						INSERT INTO usuarios(id_estado, tipo_usuario, rut, digito, nombres, appaterno, apmaterno, nombre_completo, nick, fono, celular, email, password, usuario, fecha_usuario)
+			         VALUES (id_estado, tipo_usuario, rut, digito, nombres, appaterno, apmaterno, nombre_completo, nick, fono, celular, email, clave, usuario, localtimestamp);
+						SELECT @@identity AS id;
+				when 2 then
+					UPDATE usuarios set  id_estado = id_estado, rut = rut, digito = digito, nombres = nombres, 
+					                     appaterno = appaterno, apmaterno = apmaterno, nombre_completo = nombre_completo, 
+												fono = fono, celular = celular, email = email, nick = nick,
+					                     usuario = usuario, fecha_usuario = localtimestamp
+						       where usuarios.id_usuario = id_usuario;
+				    select * from usuarios where usuarios.id_usuario = id_usuario; 
+				when 3 then
+					UPDATE usuarios set password = clave, usuario = usuario, fecha_usuario = localtimestamp
+						       where usuarios.id_usuario = id_usuario;
+   		      select * from usuarios where usuarios.id_usuario = id_usuario; 			    
+	end case;
+END

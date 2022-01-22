@@ -1,0 +1,62 @@
+BEGIN
+	case opcion
+			when 1 then /*inserta nuevo registro*/
+				insert into entidades 
+				(
+					id_comuna, id_estado, id_tipo_entidad, rut, digito,nombre,
+					clasificacion,direccion, email,fono,celular,observaciones,fecha_ingreso, id_usuario, fecha_usuario
+				)
+				values 
+				(
+					id_comuna, id_estado, id_tipo_entidad, rut, digito,nombre,
+					clasificacion,direccion, email,fono,celular,observaciones,localtimestamp, id_usuario, localtimestamp
+				);
+				/*inserta como nuevo usuario para modulo de pagos*/
+				if(email = '') then
+					call sp_act_datos_usuarios(1, 1, 2, 1, rut, digito, nombre, '','',nombre, fono, celular, email, rut, pass, id_usuario);
+				else
+					call sp_act_datos_usuarios(1, 1, 2, 1, rut, digito, nombre, '','',nombre, fono, celular, email, email, pass, id_usuario);
+				end if;
+				set @ultimo_id_usuario := (select last_insert_id());
+				/*asigna perfil cliente*/				
+				if (@ultimo_id_usuario <> 0) then
+					call sp_act_datos_usuarios_perfiles(1, 1, 3, @ultimo_id_usuario, 1, id_usuario);				
+					set @ultimo_id := (select last_insert_id());
+					if (@ultimo_id <> 0) then
+							insert into usuarios_perfiles_sub_opciones 
+							(
+								id_usuario, id_perfil, id_sub_opcion, id_estado, usuario, fecha_usuario
+							)
+							values 
+							(
+								@ultimo_id_usuario, 3, 3, 1, id_usuario, localtimestamp
+							);
+							insert into usuarios_perfiles_sub_opciones 
+							(
+								id_usuario, id_perfil, id_sub_opcion, id_estado, usuario, fecha_usuario
+							)
+							values 
+							(
+								@ultimo_id_usuario, 3, 4, 1, id_usuario, localtimestamp
+							);
+							insert into usuarios_perfiles_sub_opciones 
+							(
+								id_usuario, id_perfil, id_sub_opcion, id_estado, usuario, fecha_usuario
+							)
+							values 
+							(
+								@ultimo_id_usuario, 3, 15, 1, id_usuario, localtimestamp
+							);																
+					end if;
+					/*SELECT @@identity AS id;*/
+				end if;	
+				SELECT @@identity AS id;
+			when 2 then /*actualiza los datos en base a un ID*/
+				update entidades set id_comuna = id_comuna, id_estado = id_estado, id_tipo_entidad = id_tipo_entidad, 
+				                     rut = rut, digito = digito, nombre = nombre, clasificacion = clasificacion,
+											direccion = direccion, email = email, fono = fono, celular = celular,
+											observaciones = observaciones, id_usuario = id_usuario, fecha_usuario = localtimestamp
+				where entidades.id_entidad = id_entidad;
+				select * from entidades where id_entidad = id_entidad;
+	end case;
+END
