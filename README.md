@@ -1,3 +1,18 @@
+
+Para usar este proyecto apuntar a la siguiente URL
+
+http://localhost/prueba-primer/
+
+la estrucutura de la carpeta debe ser 
+
+prueba-primer/<br>
+              /app<br>
+              /public<br>
+              
+              
+ El uso de esta prueba es solo un CRUD que puede insertar usuario a la tabla, editar los usuarios, eliminar los usuarios.
+
+
 # CodeIgniter 4 Development
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
